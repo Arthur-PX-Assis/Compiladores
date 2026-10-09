@@ -1,0 +1,16 @@
+int x;
+float y;
+x = 2 + 3 * 4;
+y = x + 1.5;
+print(y);
+if (x < 5) {
+    print(x);
+}
+if (x != 10) {
+    print(x);
+} else {
+    print(y);
+}
+while (x < 10) {
+    x = x + 1;
+}
