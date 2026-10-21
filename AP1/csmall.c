@@ -42,7 +42,7 @@ int abrirCodigoFonte(CodigoFonte *codigo, const char *nomeArquivo){
     codigo->linha = 1;
 
     if (codigo->arquivo == NULL){
-        fprintf(stderr, "Não foi possível abrir o arquivo: %s\n", nomeArquivo);
+        fprintf(stderr, "Não foi possível abrir o arquivo %s\n", nomeArquivo);
         return 0;
     }
     return 1;
